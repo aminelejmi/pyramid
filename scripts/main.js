@@ -10,8 +10,7 @@ rl.question('Salut, bienvenue dans ma super pyramide ! Combien d\'étages veux-t
   rl.close();
 });
 */
-ourheight = prompt('Salut, bienvenue dans ma super pyramide ! Combien d\'étages veux-tu ? \n');
-pyramid(ourheight);
+
 //fonction qui construit la pyramide avec l'hauteur height donnée
 function pyramid(height) {
     let ourPyramid='';
@@ -39,4 +38,5 @@ function pyramid(height) {
     }
     return ourString;
  }
-
+ourheight = prompt('Salut, bienvenue dans ma super pyramide ! Combien d\'étages veux-tu ? \n');
+pyramid(ourheight);
