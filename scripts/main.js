@@ -12,7 +12,7 @@ rl.question('Salut, bienvenue dans ma super pyramide ! Combien d\'étages veux-t
 */
 ourheight = prompt('Salut, bienvenue dans ma super pyramide ! Combien d\'étages veux-tu ? \n');
 pyramid(ourheight);
-//function build a pyramid with a height of 
+//fonction qui construit la pyramide avec l'hauteur height donnée
 function pyramid(height) {
     let ourPyramid='';
     //verfifier si la variable est un entier ou nn
